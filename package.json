@@ -27,7 +27,6 @@
     "@ionic-native/streaming-media": "^4.7.0",
     "@ionic/pro": "1.0.20",
     "@ionic/storage": "2.1.3",
-    "com.hutchind.cordova.plugins.streamingmedia": "~0.1.4",
     "cordova-android": "7.0.0",
     "cordova-ios": "4.5.4",
     "cordova-plugin-device": "^2.0.2",
@@ -49,12 +48,12 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "com.hutchind.cordova.plugins.streamingmedia": {},
       "cordova-plugin-whitelist": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "com.hutchind.cordova.plugins.streamingmedia": {}
     },
     "platforms": [
       "ios",
